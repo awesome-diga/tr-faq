@@ -1,5 +1,5 @@
 import { Footer, Layout, Navbar } from "nextra-theme-docs";
-import { IBM_Plex_Mono as FontSans } from "next/font/google";
+import { IBM_Plex_Sans as FontSans } from "next/font/google";
 import { getPageMap } from "nextra/page-map";
 import "nextra-theme-docs/style.css";
 import "./globals.css";
@@ -10,20 +10,16 @@ const fontSans = FontSans({
   weight: ["100", "200", "300", "400", "500", "600", "700"],
 });
 
-const repoDomain = "https://github.com/awesome-diga/tr-faq";
+const repoDomain = "https://github.com/EddieRietz/nxtrtst";
 
 export default async function RootLayout({ children }) {
-  const navbar = (
-    <Navbar
-      logo={
-        <div>
-          <b>BSI TR-03161</b>{" "}
-          <span style={{ opacity: "60%" }}>Fragen und Antworten</span>
-        </div>
-      }
-      projectLink={repoDomain}
-    />
+  const logo = (
+    <div>
+      <b>BSI TR-03161</b>{" "}
+      <span style={{ opacity: "60%" }}>Fragen und Antworten</span>
+    </div>
   );
+  const navbar = <Navbar logo={logo} projectLink={repoDomain} />;
   const pageMap = await getPageMap();
   return (
     <html lang="de" dir="ltr" suppressHydrationWarning>
