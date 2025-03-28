@@ -21,4 +21,4 @@ Ziel dieser Knowledge Base ist es, zentrale Informationen und bewährte Verfahre
 
 Interessierte können direkt im GitHub-Repository neue Inhalte beitragen oder bestehende Inhalte ergänzen und verbessern.
 
-Zum Repository: [github.com/awesome-diga](https://github.com/awesome-diga/tr-faq)
+Zum Repository: [github.com/EddieRietz/nxtrtst](https://github.com/EddieRietz/nxtrtst)
