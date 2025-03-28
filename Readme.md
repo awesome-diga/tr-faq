@@ -1,0 +1,24 @@
+# BSI DiGA TR-03161 Fragen und Antworten
+
+Diese Knowledge Base dient der strukturierten und transparenten Sammlung von Informationen, häufig gestellten Fragen (FAQs), etablierten Best Practices und anerkannten Vorgehensweisen rund um das Verfahren des Bundesamts für Sicherheit in der Informationstechnik (BSI) im Kontext digitaler Gesundheitsanwendungen (DiGA).
+
+## Hintergrund
+
+Die aktuelle Kommunikation zwischen Herstellern von DiGA und Prüfinstituten und dem BSI erfolgt überwiegend individuell per E-Mail. Dies führt zu redundanter Kommunikation, Informationsverlust und mangelnder Transparenz.
+
+## Zielsetzung
+
+Ziel dieser Knowledge Base ist es, zentrale Informationen und bewährte Verfahren öffentlich zugänglich zu dokumentieren, um Herstellern und Prüfinstituten eine effiziente und transparente Informationsquelle zu bieten.
+
+## Umsetzung
+
+- Inhalte werden als Markdown-Dokumente in einem GitHub-Repository verwaltet.
+- Beteiligte können eigenständig Inhalte beitragen oder Änderungen vorschlagen.
+- Die finale Integration der Inhalte erfolgt durch ein dediziertes Team mit Merge-Rechten.
+- Zukünftig ist eine Veröffentlichung der Inhalte als statische Webseite (z.B. mittels Hugo) geplant, um die Zugänglichkeit weiter zu erhöhen.
+
+## Beteiligungsmöglichkeit
+
+Interessierte können direkt im GitHub-Repository neue Inhalte beitragen oder bestehende Inhalte ergänzen und verbessern.
+
+Zum Repository: [github.com/awesome-diga](https://github.com/awesome-diga/tr-faq)
