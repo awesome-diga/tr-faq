@@ -14,6 +14,6 @@ export default withNextra({
   images: {
     unoptimized: true,
   },
-  basePath: process.env.NODE_ENV === "production" ? "/nxtrtst" : "",
-  assetPrefix: process.env.NODE_ENV === "production" ? "/nxtrtst/" : "",
+  basePath: "",
+  assetPrefix: "/",
 });
