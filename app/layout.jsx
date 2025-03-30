@@ -10,7 +10,7 @@ const fontSans = FontSans({
   weight: ["100", "200", "300", "400", "500", "600", "700"],
 });
 
-const repoDomain = "https://github.com/EddieRietz/nxtrtst";
+const repoDomain = "https://github.com/EddieRietz/nxtrtst/blob/main"; //TODO fix references to nxtrtst everywhere
 
 export default async function RootLayout({ children }) {
   const logo = (

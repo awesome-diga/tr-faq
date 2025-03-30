@@ -1,24 +1,21 @@
-# BSI DiGA TR-03161 Fragen und Antworten
+# Welcome to the TR FAQ pages
 
-Diese Knowledge Base dient der strukturierten und transparenten Sammlung von Informationen, häufig gestellten Fragen (FAQs), etablierten Best Practices und anerkannten Vorgehensweisen rund um das Verfahren des Bundesamts für Sicherheit in der Informationstechnik (BSI) im Kontext digitaler Gesundheitsanwendungen (DiGA).
+## Disclaimer
 
-## Hintergrund
+The content provided in this repository is for **informational purposes only**. It is a **community-driven resource** and does not constitute official guidance, legal advice, or authoritative instruction on matters of technical compliance, certification, or regulatory requirements.
 
-Die aktuelle Kommunikation zwischen Herstellern von DiGA und Prüfinstituten und dem BSI erfolgt überwiegend individuell per E-Mail. Dies führt zu redundanter Kommunikation, Informationsverlust und mangelnder Transparenz.
+All information is provided on a **best-effort basis**, with **no guarantees or warranties**—express or implied—as to its accuracy, completeness, currentness, or suitability for any particular purpose. Use of the information is **at your own risk**.
 
-## Zielsetzung
+This repository is **not affiliated with, endorsed by, or acting on behalf of** any standards organization, regulatory authority, or certification body. It does not establish any legally enforceable obligations or rights.
 
-Ziel dieser Knowledge Base ist es, zentrale Informationen und bewährte Verfahren öffentlich zugänglich zu dokumentieren, um Herstellern und Prüfinstituten eine effiziente und transparente Informationsquelle zu bieten.
+By using this repository, you acknowledge that:
 
-## Umsetzung
+- You are solely responsible for verifying any information before relying on it.
+- You will consult official sources or qualified professionals for authoritative guidance.
+- The maintainers and contributors of this repository **disclaim all liability** for any loss, damage, or consequences arising from the use or misuse of the information contained herein.
 
-- Inhalte werden als Markdown-Dokumente in einem GitHub-Repository verwaltet.
-- Beteiligte können eigenständig Inhalte beitragen oder Änderungen vorschlagen.
-- Die finale Integration der Inhalte erfolgt durch ein dediziertes Team mit Merge-Rechten.
-- Zukünftig ist eine Veröffentlichung der Inhalte als statische Webseite (z.B. mittels Hugo) geplant, um die Zugänglichkeit weiter zu erhöhen.
+If you require certified or official compliance information, please refer to the appropriate regulatory or certification authority.
 
-## Beteiligungsmöglichkeit
+## Contributing
 
-Interessierte können direkt im GitHub-Repository neue Inhalte beitragen oder bestehende Inhalte ergänzen und verbessern.
-
-Zum Repository: [github.com/EddieRietz/nxtrtst](https://github.com/EddieRietz/nxtrtst)
+We welcome contributions to this repository. After all, the idea is to share information. Please check out our [contribution guide](./CONTRIBUTING.md) to get started.
