@@ -49,7 +49,7 @@ export default async function Page(props) {
         )}
       </h1>
       {metadata.desc_short && (
-        <h2 className="text-pretty text-2xl font-semibold tracking-tight text-gray-900 sm:text-3xl">
+        <h2 className="text-pretty text-2xl font-semibold tracking-tight text-gray-900 sm:text-3xl dark:text-white">
           {metadata.desc_short}
         </h2>
       )}
