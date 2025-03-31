@@ -32,6 +32,9 @@ export default async function RootLayout({ children }) {
           pageMap={pageMap}
         >
           {children}
+          <Footer>
+            Content licensed under CC-BY-SA-4.0
+          </Footer>
         </Layout>
       </body>
     </html>
