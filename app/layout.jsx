@@ -1,4 +1,5 @@
 import { Footer, Layout, Navbar } from "nextra-theme-docs";
+import { Head } from "nextra/components";
 import { IBM_Plex_Sans as FontSans } from "next/font/google";
 import { getPageMap } from "nextra/page-map";
 import "nextra-theme-docs/style.css";
@@ -23,6 +24,7 @@ export default async function RootLayout({ children }) {
   const pageMap = await getPageMap();
   return (
     <html lang="de" dir="ltr" suppressHydrationWarning>
+      <Head />
       <body className={"font-sans antialiased " + fontSans.variable}>
         <Layout
           navbar={navbar}
