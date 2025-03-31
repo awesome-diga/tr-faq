@@ -6,6 +6,14 @@ depth: examine
 remarks: Der Evaluator prüft die verwendeten kryptographischen Schlüssel auf ihre Zweckgebundenheit. Es wird der Zweck nach Schutz durch Verschlüsselung und Authentisierung unterschieden.
 ---
 
-## Noch keine Inhalte
+## Muss hier tatsächlich eine Liste aller Schlüssel erstellt werden?
 
-Du kannst diese Seite unter [github.com/awesome-diga](https://github.com/awesome-diga/tr-faq) mit deinem Wissen ergänzen.
+`Quelle: QnA mit TÜViT`
+
+Die initiale Antwort war hier ein Ja. Selbst wenn die Schlüssel mit hoher Frequenz (<=24h) rotiert werden. In der Praxis wurde dann eine Liste der Schlüssel nach Verwendungszweck mit ggf. einem konkreten Beispiel akzetiert.
+
+### Beispiel
+
+| Identifier    | Usage                  | KeyID | Remarks           |
+| ------------- | ---------------------- | ----- | ----------------- |
+| Workload Keys | mTLS between workloads | 1234  | rotates every 12h |
