@@ -19,3 +19,9 @@ If you require certified or official compliance information, please refer to the
 ## Contributing
 
 We welcome contributions to this repository. After all, the idea is to share information. Please check out our [contribution guide](./CONTRIBUTING.md) to get started.
+
+## Local development
+
+To get started install [nodeJS](https://nodejs.org/en/download) and [pnpm](https://pnpm.io/installation).
+In the local project run `pnpm install` to install dependencies.
+To run the project locally, run `pnpm dev`.
