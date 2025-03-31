@@ -1,4 +1,4 @@
-import { Footer, Layout, Navbar } from "nextra-theme-docs";
+import { Footer, Layout, Link, Navbar } from "nextra-theme-docs";
 import { Head } from "nextra/components";
 import { IBM_Plex_Sans as FontSans } from "next/font/google";
 import { getPageMap } from "nextra/page-map";
@@ -35,7 +35,10 @@ export default async function RootLayout({ children }) {
         >
           {children}
           <Footer>
-            Content licensed under CC-BY-SA-4.0
+            <div className="flex justify-between w-full">
+              <div className="float-left">Content licensed under CC-BY-SA-4.0</div>
+              <div className="float-right"><Link href="/legal">Legal</Link></div>
+            </div>
           </Footer>
         </Layout>
       </body>
