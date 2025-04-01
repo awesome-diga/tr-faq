@@ -6,6 +6,9 @@ depth: examine
 remarks: Der Evaluator prüft, ob jedes System, welches zum Hintergrundsystem gehört oder mit diesem kommuniziert, über ein von einer beglaubigten Certification Authority ausgestelltes Zertifikat verfügt.
 ---
 
-## Noch keine Inhalte
+## Was bedeutet 'beglaubigte CA'?
 
-Du kannst diese Seite unter [github.com/awesome-diga](https://github.com/awesome-diga/tr-faq) mit deinem Wissen ergänzen.
+`Quelle: Gespräche mit TÜViT`
+
+Der Begriff ist in Klärung mit dem BSI. _(nb: Stand Nov. 2024)_
+Die Auffassung der Prüfstelle ist bis auf weiteres, dass im internen Netzwerk eine interne CA verwendet werden kann, die den jeweiligen Systemen bekannt ist, sodass eine Verwendung von self-signed Zertifikaten unterbunden wird.

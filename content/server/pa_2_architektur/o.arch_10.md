@@ -6,6 +6,17 @@ depth: check
 remarks: Der Evaluator prüft die von dem Hersteller bereitgestellte Liste aller in den Hintergrundsystemen laufenden Dienste, die Beschreibung des Zwecks des entsprechenden Dienstes und welche Rechte für diesen Zweck notwendig sind. Anschließend verifiziert der Evaluator auf den Hintergrundsystemen, ob tatsächlich nur die notwenigen Rechte erteilt werden.
 ---
 
-## Noch keine Inhalte
+## Darf ich mit erhöhten Rechten starten und diese dann droppen?
 
-Du kannst diese Seite unter [github.com/awesome-diga](https://github.com/awesome-diga/tr-faq) mit deinem Wissen ergänzen.
+`Quelle: Gespräche mit TÜViT`
+
+Die Anwendung darf nicht mit erhöhten Rechten betrieben werden.
+Ein Starten mit erhöhten Rechten und einem entsprechenden Permission-Drop war mit einem `PASS` vereinbar.
+
+## Was bedeutet von außen erreichbar?
+
+`Quelle: Gespräche mit TÜViT`
+
+Jedes System, das direkt oder indirekt Anfragen erhält, die ihren Ursprung nicht in eigenen Systemen haben.
+
+Also kurz, alles, wo irgendwo im Pfad der Aufrufenden mal ein externes System drinnen war.

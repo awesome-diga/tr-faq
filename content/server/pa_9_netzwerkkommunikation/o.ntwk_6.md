@@ -6,6 +6,8 @@ depth: check
 remarks: Der Evaluator bestätigt, dass die Integrität und Authentizität der Nachrichten der Anwendung vom Hintergrundsystem validiert werden.
 ---
 
-## Noch keine Inhalte
+## Ist hier der TLS HMAC + Authentizitätzprüfung ausreichend?
 
-Du kannst diese Seite unter [github.com/awesome-diga](https://github.com/awesome-diga/tr-faq) mit deinem Wissen ergänzen.
+`Quelle: Gespräche mit TÜViT`
+
+Ja.

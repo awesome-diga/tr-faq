@@ -6,6 +6,8 @@ depth: examine
 remarks: Der Evaluator prüft durch Quelltextanalyse und praktische Tests die kontrollierte Behandlung und Dokumentation von Exceptions.
 ---
 
-## Noch keine Inhalte
+## Bedeutet 'dokumentiert' hier 'geloggt'?
 
-Du kannst diese Seite unter [github.com/awesome-diga](https://github.com/awesome-diga/tr-faq) mit deinem Wissen ergänzen.
+`Quelle: Gespräche mit TÜViT`
+
+`Log and Rethrow` soll hier definitiv nicht verlangt oder gefördert werden. In der Quellcodeanalyse muss sichtbar sein, dass Exceptions behandelt und nicht einfach ignoriert werden. Wenn es dann dazu auch noch interne Guidelines gibt, sollte einem `PASS` nichts im Wege stehen.

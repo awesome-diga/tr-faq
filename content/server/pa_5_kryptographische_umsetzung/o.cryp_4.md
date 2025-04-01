@@ -8,9 +8,9 @@ remarks: Der Evaluator prüft die verwendeten kryptographischen Schlüssel auf i
 
 ## Muss hier tatsächlich eine Liste aller Schlüssel erstellt werden?
 
-`Quelle: QnA mit TÜViT`
+`Quelle: Gespräche mit TÜViT`
 
-Die initiale Antwort war hier ein Ja. Selbst wenn die Schlüssel mit hoher Frequenz (<=24h) rotiert werden. In der Praxis wurde dann eine Liste der Schlüssel nach Verwendungszweck mit ggf. einem konkreten Beispiel akzetiert.
+Die initiale Antwort war hier ein Ja. Selbst wenn die Schlüssel mit hoher Frequenz (<=24h) rotiert werden. In der Praxis wurde dann eine Liste der Schlüssel nach Verwendungszweck mit ggf. einem konkreten Beispiel akzeptiert.
 
 ### Beispiel
 

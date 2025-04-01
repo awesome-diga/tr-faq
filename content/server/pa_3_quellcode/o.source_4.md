@@ -6,6 +6,8 @@ depth: examine
 remarks: Der Evaluator prüft den Zugriff auf sensible Daten bei Ausnahmen im Programmablauf. Jeglicher identifizierte Zugriff muss in der Risikobewertung betrachtet werden.
 ---
 
-## Noch keine Inhalte
+## Meine Sprache hat keine manuelle Speicherveraltung. Wie soll das umgesetzt werden?
 
-Du kannst diese Seite unter [github.com/awesome-diga](https://github.com/awesome-diga/tr-faq) mit deinem Wissen ergänzen.
+`Quelle: Gespräche mit TÜViT`
+
+In diesem Fall ist die Anforderung automatisch ein `FAIL` allerdings mit einer guten Begründung. Ein `FAIL` ist nicht automatisch ein Scheitern beim BSI. Da es sich nur um ein `SOLL` Kriterium handelt kann dies in der Risikoanalyse behandelt werden.
