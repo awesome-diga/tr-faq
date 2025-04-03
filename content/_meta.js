@@ -5,4 +5,7 @@ export default {
   server: "3. Server",
   process: "4. Prozess",
   disclaimer: "Haftungsausschluss",
+  legal: {
+    display: "hidden",
+  },
 };
