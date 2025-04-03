@@ -6,6 +6,10 @@ depth: examine
 remarks: Der Evaluator prüft, durch Quelltextanalyse und praktische Tests, dass Funktionalitäten sicher verwendet werden und ungenutzte Funktionalitäten nicht zugänglich sind. Darüber hinaus prüft er, ob der Nutzer ausreichend über die Verwendung von Drittanbieter-Software informiert wird.
 ---
 
-## Noch keine Inhalte
+## Das sind mindestens 3 sehr schwammige Punkte. Was bedeutet das?
 
-Du kannst diese Seite unter [github.com/awesome-diga](https://github.com/awesome-diga/tr-faq) mit deinem Wissen ergänzen.
+`Quelle: Gespräche mit TÜViT`
+
+Es wird eine Quelltextanalyse durchgeführt. Im Rahmen dessen wird geprüft, ob Sicherheitsfunktionen wie Authentifizierung, Logging und Authorisierung implementiert sind. Es wird betrachtet, ob Standardlösungen oder eigene Umsetzungen angewendet werden und ob deren Anwendung den aktuellen Empfehlungen entspricht.
+
+Als Antragstellender sollte aufgelistet werden, welche Libraries verwendet werden, und wie die Authentisierung zwischen den Backendkomponenten umgesetzt ist.

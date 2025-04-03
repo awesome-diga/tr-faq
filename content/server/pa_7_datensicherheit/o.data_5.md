@@ -6,6 +6,10 @@ depth: examine
 remarks: Der Evaluator prüft, ob sensible Daten aus der Komponente, auf der sie erzeugt wurden, exportiert werden und ob dies für den Zweck notwendig ist.
 ---
 
-## Noch keine Inhalte
+## Wie ist dies Anforderung im Bezug auf TLS terminierende Systeme zu verstehen?
 
-Du kannst diese Seite unter [github.com/awesome-diga](https://github.com/awesome-diga/tr-faq) mit deinem Wissen ergänzen.
+`Quelle: Gespräche mit TÜViT`
+
+> TLS Zertifikate und Schlüssel sollten auf dem terminierenden System erzeugt und insbesondere private Schlüssel nicht von dort exportiert werden.
+
+Dies ist, je nach Technologiestack und verwendeten Zertifikaten, vermutlich schwer möglich. Seitens TÜV wurden gängige Verfahren zur Verwaltung, wie zum Beispiel [cert-manager](https://cert-manager.io/) während der Prüfung akzeptiert.

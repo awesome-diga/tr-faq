@@ -6,6 +6,14 @@ depth: check
 remarks: Der Evaluator prüft durch Quelltextanalyse und praktische Tests, ob die Dokumentation der API die tatsächliche Funktionalität vollständig abdeckt.
 ---
 
-## Noch keine Inhalte
+## Was soll mit dieser Anforderung verhindert werden?
 
-Du kannst diese Seite unter [github.com/awesome-diga](https://github.com/awesome-diga/tr-faq) mit deinem Wissen ergänzen.
+`Quelle: Gespräche mit TÜViT`
+
+Diese Anforderung soll verhindern, dass beim Prüfen der Anwendung Teile der API, die eigentlich im Scope sind, nicht geprüft werden.
+
+## Welche Art von Dokumentation ist gefordert?
+
+`Quelle: Gespräche mit TÜViT`
+
+Die Dokumentation kann in verschiedenen Formen vorliegen. Zum Beispiel OpenAPI Spec, Ergebnisse von Introspection Queries oder Ähnliches. Bei GraphQL ist auch eine Dokumentation im Quellcode und Verweise darauf in Ordnung.

@@ -6,6 +6,8 @@ depth: examine
 remarks: Der Evaluator prüft die Umgebung für die Durchführung kryptographischer Operationen analog zu O.Cryp_6.
 ---
 
-## Noch keine Inhalte
+## Wie sieht es hier mit der Termination von TLS am Loadbalancer aus?
 
-Du kannst diese Seite unter [github.com/awesome-diga](https://github.com/awesome-diga/tr-faq) mit deinem Wissen ergänzen.
+`Quelle: Gespräche mit TÜViT`
+
+Sofern kein HSM oder ähnliche Techniken zum Einsatz kommen ist dieses `SOLL` Kriterium ein `FAIL`. Dies muss dann entsprechend in der Risikobewertung argumentiert werden.

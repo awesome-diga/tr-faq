@@ -6,6 +6,9 @@ depth: check
 remarks: Der Anbieter stellt eine Liste der eingesetzten Drittanbieter-Software inkl. der verwendeten Versionen bereit. Der Evaluator prüft die bereitgestellte Liste auf Vollständigkeit.
 ---
 
-## Noch keine Inhalte
+## Als Medizinprodukehersteller führe ich schon eine SOUP Liste. Reicht die hier?
 
-Du kannst diese Seite unter [github.com/awesome-diga](https://github.com/awesome-diga/tr-faq) mit deinem Wissen ergänzen.
+`Quelle: Gespräche mit TÜViT`
+
+Jein. Bei dieser Liste wird vermutlich der Detailgrad eine SOUP-Liste nicht ausreichen.
+Hier ist mehr in Richtung [SBOM](https://cyclonedx.org/capabilities/sbom/) zu denken.

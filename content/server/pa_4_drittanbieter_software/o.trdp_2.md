@@ -6,6 +6,8 @@ depth: check
 remarks: Der Evaluator prüft die in O.TrdP_1 bereitgestellte Liste auf Aktualität der verwendeten Drittanbieter-Software-Versionen. Diese Abwägungen zu den gewählten Versionen werden in der Risikobewertung berücksichtigt.
 ---
 
-## Noch keine Inhalte
+## Ich habe gehört das unter bestimmten Vorraussetzungen auch ältere Versionen akzeptiert werden. Stimmt das?
 
-Du kannst diese Seite unter [github.com/awesome-diga](https://github.com/awesome-diga/tr-faq) mit deinem Wissen ergänzen.
+`Quelle: Gespräche mit TÜViT`
+
+Es kann möglich sein, dass ältere Versionen akzeptiert werden, solange in diesen keine wesentlichen Sicherheitslücken vorhanden sind.
