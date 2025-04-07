@@ -5,11 +5,10 @@ import { getPageMap } from "nextra/page-map";
 import "nextra-theme-docs/style.css";
 import "../globals.css";
 
-// TODO: Dictonaries
-// TODO: i18n switcher
-// TODO:  Default language does not work correctly. / is empty
-// TODO: Navigation does not work correctly. Links are not prefixed
+// TODO: Navigation does not work correctly. Links are not prefixed in dynamic env
+// TODO: Default language does not work correctly, for static export
 // TODO: Static export is broken. Nav does not work.
+// TODO: Dictonaries
 
 const fontSans = FontSans({
   variable: "--font-sans",
