@@ -2,12 +2,12 @@
 title: " "
 ---
 
-# Haftungsausschluss
+# Disclaimer
 
-Die Inhalte in diesem Repository dienen **ausschließlich zu Informationszwecken**. Es handelt sich um eine gemeinschaftlich erstellte Ressource und stellt keine offizielle Anleitung, Rechtsberatung oder verbindliche Auskunft in Bezug auf technische Compliance, Zertifizierungen oder regulatorische Anforderungen dar.
+The content in this repository is **for informational purposes only**. It is a collaboratively created resource and does not constitute official guidance, legal advice, or authoritative information regarding technical compliance, certification, or regulatory requirements.
 
-Alle Informationen werden **nach bestem Wissen und Gewissen** bereitgestellt, jedoch **ohne Gewähr für Richtigkeit, Vollständigkeit, Aktualität oder Eignung für einen bestimmten Zweck** – weder ausdrücklich noch stillschweigend.
+All information is provided **to the best of our knowledge**, but **without warranty of accuracy, completeness, timeliness, or fitness for a particular purpose** – either express or implied.
 
-**Die Nutzung der Informationen erfolgt auf eigenes Risiko.**
+**Use of the information is at your own risk.**
 
-Dieses Repository/Diese Seite steht in keiner Verbindung zu und wird weder von einer Normungsorganisation, Aufsichtsbehörde oder Zertifizierungsstelle betrieben noch unterstützt. Es/Sie begründet keinerlei rechtlich bindende Verpflichtungen oder Ansprüche.
+This repository/site is not affiliated with, operated, or endorsed by any standards organization, regulatory authority, or certification body. It does not create any legally binding obligations or claims.

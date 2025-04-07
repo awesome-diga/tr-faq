@@ -1,8 +1,8 @@
 export default {
-  index: "Einführung",
-  mobile: "1. Mobile Anwendungen",
-  web: "2. Web Anwendungen",
-  server: "3. Server",
-  process: "4. Prozess",
-  disclaimer: "Haftungsausschluss",
+  index: "Introduction",
+  mobile: "1. Mobile Applications",
+  web: "2. Web Applications",
+  server: "3. Backend Applications",
+  process: "4. Processes",
+  disclaimer: "Disclaimer",
 };
