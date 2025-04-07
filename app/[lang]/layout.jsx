@@ -1,0 +1,51 @@
+import { Footer, Layout, Navbar } from "nextra-theme-docs";
+import { Head } from "nextra/components";
+import { IBM_Plex_Sans as FontSans } from "next/font/google";
+import { getPageMap } from "nextra/page-map";
+import "nextra-theme-docs/style.css";
+import "../globals.css";
+
+// TODO: Navigation does not work correctly. Links are not prefixed in dynamic env
+// TODO: Default language does not work correctly, for static export
+// TODO: Static export is broken. Nav does not work.
+// TODO: Dictonaries
+
+const fontSans = FontSans({
+  variable: "--font-sans",
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700"],
+});
+
+const repoDomain = "https://github.com/awesome-diga/tr-faq/blob/main";
+
+export default async function RootLayout({ children, params }) {
+  const logo = (
+    <div>
+      <b>BSI TR-03161</b>{" "}
+      <span style={{ opacity: "60%" }}>Fragen und Antworten</span>
+    </div>
+  );
+  const navbar = <Navbar logo={logo} projectLink={repoDomain} />;
+  const { lang } = await params
+  const pageMap = await getPageMap(`/${lang}`);
+  return (
+    <html lang="de" dir="ltr" suppressHydrationWarning>
+      <Head />
+      <body className={"font-sans antialiased " + fontSans.variable}>
+        <Layout
+          navbar={navbar}
+          editLink="Edit this page on GitHub"
+          docsRepositoryBase={repoDomain}
+          sidebar={{ defaultMenuCollapseLevel: 1 }}
+          pageMap={pageMap}
+          i18n={[{ locale: "de", name: "Deutsch" },{ locale: "en", name: "English" },]}
+        >
+          {children}
+          <Footer>
+            Content licensed under CC-BY-SA-4.0
+          </Footer>
+        </Layout>
+      </body>
+    </html>
+  );
+}
