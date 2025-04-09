@@ -1,4 +1,4 @@
-import { Footer, Layout, Link, Navbar } from "nextra-theme-docs";
+import { Footer, Layout, Navbar } from "nextra-theme-docs";
 import { Head } from "nextra/components";
 import { IBM_Plex_Sans as FontSans } from "next/font/google";
 import { getPageMap } from "nextra/page-map";
