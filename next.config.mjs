@@ -6,6 +6,7 @@ const withNextra = nextra({
     codeblocks: false,
   },
   contentDirBasePath: "/",
+  unstable_shouldAddLocaleToLinks: true,
 });
 
 export default withNextra({

@@ -5,9 +5,10 @@ import { getPageMap } from "nextra/page-map";
 import "nextra-theme-docs/style.css";
 import "../globals.css";
 
-// TODO: Navigation does not work correctly. Links are not prefixed in dynamic env
+
+// TODO: Static export is broken. Navigation within a language works, but switching is broken.
+// Check: https://github.com/shuding/nextra/issues/3934
 // TODO: Default language does not work correctly, for static export
-// TODO: Static export is broken. Nav does not work.
 // TODO: Dictonaries
 
 const fontSans = FontSans({
