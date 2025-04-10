@@ -35,7 +35,10 @@ export default async function RootLayout({ children }) {
         >
           {children}
           <Footer>
-            Content licensed under CC-BY-SA-4.0
+            <div className="flex justify-between w-full">
+              <div className="float-left">Community content licensed under CC-BY-SA-4.0</div>
+              <div className="float-right text-pretty text-grey-600 dark:text-grey-400 text-decoration-line: underline"><a href="/legal" target="_blank">Impressum & Rechtliches</a></div>
+            </div>
           </Footer>
         </Layout>
       </body>
