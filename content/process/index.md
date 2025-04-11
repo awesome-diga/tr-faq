@@ -37,4 +37,4 @@ Der erste Weg sollte zum Prüflabor sein. Laut BSI gibt es zu jeder Ablehnung ei
 
 ## Anmerkung
 
-Sollte das Prüflabor diese Rückmeldung nicht an den Kunden weitergeben wollen oder können, ist es möglich, sich direkt per Mail [referat-d24@bsi.bund.de](mailto: referat-d24@bsi.bund.de) an das BSI zu wenden, um diesen Bericht zu erhalten.
+Sollte das Prüflabor diese Rückmeldung nicht an den Kunden weitergeben wollen oder können, ist es möglich, sich direkt per Mail [referat-d24@bsi.bund.de](mailto:referat-d24@bsi.bund.de) an das BSI zu wenden, um diesen Bericht zu erhalten.
