@@ -4,6 +4,7 @@ export default {
   web: "2. Web Anwendungen",
   server: "3. Server",
   process: "4. Prozess",
+  resources: "5. Weitere Ressourcen",
   disclaimer: "Haftungsausschluss",
   legal: {
     display: "hidden",
