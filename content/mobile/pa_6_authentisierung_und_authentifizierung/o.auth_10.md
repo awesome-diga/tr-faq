@@ -6,6 +6,8 @@ depth: check
 remarks: Der Evaluator validiert, dass nach einer der Anwendung angemessenen Zeit, in der sie dauerhaft aktiv verwendet wurde, eine erneute Authentifizierung erfolgen muss. Die Güte der geforderten Authentifizierung muss dem Vertrauensniveau angemessen sein (vgl. O.Auth_3).
 ---
 
-## Noch keine Inhalte
+Bei dieser Anforderung muss eine angemessenen Frist definieren, aber Achtung: Das BSI hat genau Vorstellungen. 60 Minuten scheinen als active-time akzeptiert zu werden. Längere Zeiten müssen separat begründet werden und führen vermutlich zu einem FAIL des Kriteriums, möglicherweise aber nicht zum Scheitern der gesamten Zertifizierung.
 
-Du kannst diese Seite unter [github.com/awesome-diga](https://github.com/awesome-diga/tr-faq) mit deinem Wissen ergänzen.
+"erneute Authentisierung" ist in Kombination mit O.Auth_3 zu betrachten.
+
+Hierbei müssen BSI-Zertifizierte Produkte beobachtet werden, welche Zeiten zertifizierbar sind.

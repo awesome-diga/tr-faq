@@ -6,6 +6,4 @@ depth: check
 remarks: Der Evaluator prüft, ob die Anwendung dem Nutzer ermöglicht, ein oder alle zuvor ausgestellten Authentisierungsdaten ungültig zu machen.
 ---
 
-## Noch keine Inhalte
-
-Du kannst diese Seite unter [github.com/awesome-diga](https://github.com/awesome-diga/tr-faq) mit deinem Wissen ergänzen.
+Durch den Logout aus einer App müssen Session-Identifier bzw. Authentisierungstoken invalidiert werden. Durch den Logout nicht betroffen ist z.B. die Gerätebindung.
