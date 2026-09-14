@@ -6,6 +6,4 @@ depth: check
 remarks: Der Evaluator validiert, dass ein Ausprobieren von Login-Parametern verhindert wird. Dies kann beispielsweise durch Verzögerung nachfolgender Login-Versuche oder den Einsatz von sogenannten Captchas erreicht werden.
 ---
 
-## Noch keine Inhalte
-
-Du kannst diese Seite unter [github.com/awesome-diga](https://github.com/awesome-diga/tr-faq) mit deinem Wissen ergänzen.
+Es muss ein Brute-Force Schutz implementiert werden, z.B. rate-limiting.

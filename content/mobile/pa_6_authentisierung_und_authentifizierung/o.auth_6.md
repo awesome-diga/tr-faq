@@ -6,6 +6,4 @@ depth: check
 remarks: Der Evaluator prüft, ob dem Nutzer leicht zugänglich die Möglichkeit gegeben wird, Informationen zu Anmeldevorgängen nachzuvollziehen. Ist das nicht der Fall, sind die Abwägungen des Herstellers zu prüfen und in der Risikobewertung zu berücksichtigen.
 ---
 
-## Noch keine Inhalte
-
-Du kannst diese Seite unter [github.com/awesome-diga](https://github.com/awesome-diga/tr-faq) mit deinem Wissen ergänzen.
+Anforderung ist verbunden mit O.Auth_5: Wenn Merkmale gesammelt werden, dann sollte man den Nutzer über das Ergebnis der Bewertung des Anmeldevorgangs informieren.

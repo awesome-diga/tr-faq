@@ -6,6 +6,4 @@ depth: check
 remarks: Der Evaluator prüft, ob Authentisierungsdaten als sensible Daten gemäß den Anforderungen der TR behandelt werden.
 ---
 
-## Noch keine Inhalte
-
-Du kannst diese Seite unter [github.com/awesome-diga](https://github.com/awesome-diga/tr-faq) mit deinem Wissen ergänzen.
+Session-Identifier bzw. Authentisierungstoken müssen im secure storage des Smartphones abgelegt werden.

@@ -6,6 +6,6 @@ depth: examine
 remarks: Der Evaluator prüft durch Quelltextanalyse und praktische Tests das Vorhandensein und die Güte der Zwei-Faktor- Authentisierung. Insbesondere prüft er, ob die verwendeten Faktoren aus unterschiedlichen Kategorien stammen (Wissen und Besitz) und mit dem in O.Auth_1 beschriebenem Konzept übereinstimmen.
 ---
 
-## Noch keine Inhalte
+Diese Anforderung besagt, dass Authentisierung immer mit 2FA aus zwei Kategorien (Wissen, Besitz und/oder Inhärenz) erfolgen muss. Soweit so einfach.
 
-Du kannst diese Seite unter [github.com/awesome-diga](https://github.com/awesome-diga/tr-faq) mit deinem Wissen ergänzen.
+Implizit heißt diese Anforderung auch, dass jedes andere Requirement in dem Standard, welches von einer Authentifizierung spricht in Kombination mit O.Auth_3 immer eine 2FA bedeutet (Beispiel O.Auth_11 mobile).

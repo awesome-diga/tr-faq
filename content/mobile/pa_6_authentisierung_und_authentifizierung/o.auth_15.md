@@ -6,6 +6,6 @@ depth: check
 remarks: Der Evaluator prüft, ob das Hintergrundsystem bei einer ordnungsgemäßen Beendigung der Anwendungssitzung durch die Anwendung informiert wird.
 ---
 
-## Noch keine Inhalte
+Backend und die App sollten immer zusammen gedacht werden. Bei einem Logout-Vorgang reicht es nicht, wenn Session Tokens auf dem Smartphone gelöscht werden, es muss auch ein call an das backend gerichtet werden, damit auch auf der Seite des Backends Tokens invalidiert werden.
 
-Du kannst diese Seite unter [github.com/awesome-diga](https://github.com/awesome-diga/tr-faq) mit deinem Wissen ergänzen.
+Hierbei werden explizit, die inactive-time (O.Auth_9) und die active time (O.Auth_10) genannt, d.h. man kann davon ausgehen, dass diese Fälle geprüft werden.
